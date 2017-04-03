@@ -4,7 +4,7 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 
-setup(name = 'mountainplotlib',
+setup(name = 'peaklib',
       version = '0.1',
       description = 'The python package for k-peak decomposition and mountain plot visualization.',
       long_description = readme(),
@@ -15,11 +15,11 @@ setup(name = 'mountainplotlib',
         'Topic :: Graph Mining :: Network Analysis',
       ],
       keywords = 'k-peak mountain plot graph mining',
-      url = 'http://github.com/storborg/funniest',
-      author = 'Flying Circus',
-      author_email = 'flyingcircus@example.com',
+      url = 'https://github.com/lovingmage/mountainplotlib',
+      author = 'Priya Govindan, Chenghong Wang and Sucheta Soundarajan',
+      author_email = 'cwang132@syr.edu',
       license = 'MIT',
-      packages = ['mountainplotlib'],
+      packages = ['peaklib'],
       install_requires = [
           'networkx', 'matplotlib '
       ],
