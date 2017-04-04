@@ -35,8 +35,8 @@ Graph Input:
 Interface Reference
 ---
 
-1. get_kpeak_decomposition : Given a graph, it computes the peak number of every node in the graph. Input is a a Networkx graph object. Output is a dictionary of core numbers and a dictionary of peak numbers. The keys in both dictionaries are node IDs and the values are the peak or core number.
+1. **get_kpeak_decomposition** : Given a graph, it computes the peak number of every node in the graph. Input is a a Networkx graph object. Output is a dictionary of core numbers and a dictionary of peak numbers. The keys in both dictionaries are node IDs and the values are the peak or core number.
 
-2. plot_mountains_given_mountainassignment : Given a graph, it creates the mountain-plot of the graph. Input is a a networkx graph object and a graph name in String. Output is a PDF file of the mountain-plot in the same directory as the code.
+2. **plot_mountains_given_mountainassignment** : Given a graph, it creates the mountain-plot of the graph. Input is a a networkx graph object and a graph name in String. Output is a PDF file of the mountain-plot in the same directory as the code.
 
 ——————————————————
