@@ -24,7 +24,7 @@ Usage
 Sample usage:
 Import peak package to include all functionalities in peak package, import code as follow:
 
-> **import** peak.kpeak as kp
+> **import** *peak.kpeak* as *kp*
 
 Graph Input:
 - Format: Undirected, unweighted graph in the form of a text file of comma separated edge-list. An example input file, ‘toygraph.txt’, is provided.
@@ -32,10 +32,8 @@ Graph Input:
 - Note that we assume that every node has at least one edge. Singletons are removed before k-peak decomposition is done. Singletons have core and peak number of 0.
 - Self-loops are ignored.
 
-
-
-
-Key functions in ‘kpeak_decomposition.py’:
+Interface Reference
+---
 
 1. get_kpeak_decomposition : Given a graph, it computes the peak number of every node in the graph. Input is a a Networkx graph object. Output is a dictionary of core numbers and a dictionary of peak numbers. The keys in both dictionaries are node IDs and the values are the peak or core number.
 
